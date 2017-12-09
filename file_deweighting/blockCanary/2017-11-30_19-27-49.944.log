@@ -1,0 +1,60 @@
+
+**********************
+2017-11-30 19:27:49(write log time)
+
+SdkName = bfc-blockcanary
+SdkVersion = 5.0.1-bugfix
+qua = 102_1.9.0_YYB
+versionName = 1.9.0
+versionCode = 102
+imei = null
+uid = C2
+network = 4G
+model = S3
+api-level = 22 5.1.1
+cpu-core = 4
+process = com.eebbk.vtraining
+freeMemory = 924980
+totalMemory = 2061304
+time = 716
+thread-time = 292
+time-start = 11-30 19:27:49.053
+time-end = 11-30 19:27:49.769
+cpu-busy = false
+cpu-rate = 
+stack = 11-30 19:27:49.454
+
+java.lang.String.hashCode(String.java:841)
+java.lang.String.equals(String.java:654)
+java.util.HashMap.get(HashMap.java:305)
+java.nio.charset.Charset.forName(Charset.java:284)
+java.net.URLEncoder.encode(URLEncoder.java:57)
+com.android.volley.Request.encodeParameters(Request.java:484)
+com.android.volley.Request.getBody(Request.java:470)
+com.eebbk.bfc.http.request.BfcRequestFactory$2.getBody(BfcRequestFactory.java:87)
+com.eebbk.bfc.http.request.BfcRequestFactory.printRequestInfo(BfcRequestFactory.java:164)
+com.eebbk.bfc.http.request.BfcRequestFactory.generate(BfcRequestFactory.java:95)
+com.eebbk.bfc.http.BfcHttpRequest.post(BfcHttpRequest.java:144)
+com.eebbk.bfc.http.BfcHttp.post(BfcHttp.java:208)
+com.eebbk.videoteam.NetWorkService.NetWorkRequest.postJson(NetWorkRequest.java:248)
+com.eebbk.vtraining.home.model.HomeModelImpl.requestWelcomeData(HomeModelImpl.java:62)
+com.eebbk.vtraining.home.presenter.HomePresenterImpl.requestWelcomeData(HomePresenterImpl.java:860)
+com.eebbk.vtraining.home.presenter.HomePresenterImpl.onCreate(HomePresenterImpl.java:1040)
+com.eebbk.vtraining.home.view.HomeActivity.init(HomeActivity.java:156)
+com.eebbk.vtraining.home.view.HomeActivity.onCreate(HomeActivity.java:48)
+android.app.Activity.performCreate(Activity.java:6226)
+android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1106)
+android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2306)
+android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2418)
+android.app.ActivityThread.access$800(ActivityThread.java:151)
+android.app.ActivityThread$H.handleMessage(ActivityThread.java:1319)
+android.os.Handler.dispatchMessage(Handler.java:102)
+android.os.Looper.loop(Looper.java:135)
+android.app.ActivityThread.main(ActivityThread.java:5291)
+java.lang.reflect.Method.invoke(Native Method)
+java.lang.reflect.Method.invoke(Method.java:372)
+com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:969)
+com.android.internal.os.ZygoteInit.main(ZygoteInit.java:764)
+
+
+

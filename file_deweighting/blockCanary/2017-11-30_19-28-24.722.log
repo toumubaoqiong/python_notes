@@ -1,0 +1,108 @@
+
+**********************
+2017-11-30 19:28:24(write log time)
+
+SdkName = bfc-blockcanary
+SdkVersion = 5.0.1-bugfix
+qua = 102_1.9.0_YYB
+versionName = 1.9.0
+versionCode = 102
+imei = null
+uid = C2
+network = 4G
+model = S3
+api-level = 22 5.1.1
+cpu-core = 4
+process = com.eebbk.vtraining
+freeMemory = 899024
+totalMemory = 2061304
+time = 530
+thread-time = 501
+time-start = 11-30 19:28:24.172
+time-end = 11-30 19:28:24.702
+cpu-busy = false
+cpu-rate = 11-30 19:27:54.595 cpu:97% app:13% [user:56% system:22% ioWait:3% ]
+11-30 19:27:55.098 cpu:97% app:26% [user:54% system:30% ioWait:2% ]
+
+stack = 11-30 19:28:24.573
+
+android.text.StaticLayout.nLineBreakOpportunities(Native Method)
+android.text.StaticLayout.generate(StaticLayout.java:245)
+android.text.StaticLayout.<init>(StaticLayout.java:140)
+android.text.StaticLayout.<init>(StaticLayout.java:81)
+android.text.StaticLayout.<init>(StaticLayout.java:60)
+android.widget.TextView.makeSingleLayout(TextView.java:6463)
+android.widget.TextView.makeNewLayout(TextView.java:6303)
+android.widget.TextView.onMeasure(TextView.java:6660)
+android.view.View.measure(View.java:17703)
+android.widget.RelativeLayout.measureChildHorizontal(RelativeLayout.java:727)
+android.widget.RelativeLayout.onMeasure(RelativeLayout.java:463)
+android.view.View.measure(View.java:17703)
+android.widget.RelativeLayout.measureChildHorizontal(RelativeLayout.java:727)
+android.widget.RelativeLayout.onMeasure(RelativeLayout.java:463)
+android.view.View.measure(View.java:17703)
+android.support.v7.widget.GridLayoutManager.measureChildWithDecorationsAndMargin(GridLayoutManager.java:595)
+android.support.v7.widget.GridLayoutManager.layoutChunk(GridLayoutManager.java:498)
+android.support.v7.widget.LinearLayoutManager.fill(LinearLayoutManager.java:1333)
+android.support.v7.widget.LinearLayoutManager.onLayoutChildren(LinearLayoutManager.java:562)
+android.support.v7.widget.GridLayoutManager.onLayoutChildren(GridLayoutManager.java:171)
+android.support.v7.widget.RecyclerView.dispatchLayout(RecyclerView.java:2902)
+android.support.v7.widget.RecyclerView.onLayout(RecyclerView.java:3073)
+android.view.View.layout(View.java:15827)
+android.view.ViewGroup.layout(ViewGroup.java:5038)
+android.widget.RelativeLayout.onLayout(RelativeLayout.java:1076)
+android.view.View.layout(View.java:15827)
+android.view.ViewGroup.layout(ViewGroup.java:5038)
+android.support.v4.view.ViewPager.onLayout(ViewPager.java:1627)
+android.view.View.layout(View.java:15827)
+android.view.ViewGroup.layout(ViewGroup.java:5038)
+android.widget.RelativeLayout.onLayout(RelativeLayout.java:1076)
+android.view.View.layout(View.java:15827)
+android.view.ViewGroup.layout(ViewGroup.java:5038)
+android.widget.RelativeLayout.onLayout(RelativeLayout.java:1076)
+android.view.View.layout(View.java:15827)
+android.view.ViewGroup.layout(ViewGroup.java:5038)
+android.widget.RelativeLayout.onLayout(RelativeLayout.java:1076)
+android.view.View.layout(View.java:15827)
+android.view.ViewGroup.layout(ViewGroup.java:5038)
+android.widget.FrameLayout.layoutChildren(FrameLayout.java:581)
+android.widget.FrameLayout.onLayout(FrameLayout.java:516)
+android.view.View.layout(View.java:15827)
+android.view.ViewGroup.layout(ViewGroup.java:5038)
+android.widget.LinearLayout.setChildFrame(LinearLayout.java:1703)
+android.widget.LinearLayout.layoutVertical(LinearLayout.java:1557)
+android.widget.LinearLayout.onLayout(LinearLayout.java:1466)
+android.view.View.layout(View.java:15827)
+android.view.ViewGroup.layout(ViewGroup.java:5038)
+android.widget.FrameLayout.layoutChildren(FrameLayout.java:581)
+android.widget.FrameLayout.onLayout(FrameLayout.java:516)
+android.view.View.layout(View.java:15827)
+android.view.ViewGroup.layout(ViewGroup.java:5038)
+android.widget.LinearLayout.setChildFrame(LinearLayout.java:1703)
+android.widget.LinearLayout.layoutVertical(LinearLayout.java:1557)
+android.widget.LinearLayout.onLayout(LinearLayout.java:1466)
+android.view.View.layout(View.java:15827)
+android.view.ViewGroup.layout(ViewGroup.java:5038)
+android.widget.FrameLayout.layoutChildren(FrameLayout.java:581)
+android.widget.FrameLayout.onLayout(FrameLayout.java:516)
+android.view.View.layout(View.java:15827)
+android.view.ViewGroup.layout(ViewGroup.java:5038)
+android.view.ViewRootImpl.performLayout(ViewRootImpl.java:2216)
+android.view.ViewRootImpl.performTraversals(ViewRootImpl.java:1973)
+android.view.ViewRootImpl.doTraversal(ViewRootImpl.java:1168)
+android.view.ViewRootImpl$TraversalRunnable.run(ViewRootImpl.java:6219)
+android.view.Choreographer$CallbackRecord.run(Choreographer.java:767)
+android.view.Choreographer.doCallbacks(Choreographer.java:580)
+android.view.Choreographer.doFrame(Choreographer.java:550)
+android.view.Choreographer$FrameDisplayEventReceiver.run(Choreographer.java:753)
+android.os.Handler.handleCallback(Handler.java:739)
+android.os.Handler.dispatchMessage(Handler.java:95)
+android.os.Looper.loop(Looper.java:135)
+android.app.ActivityThread.main(ActivityThread.java:5291)
+java.lang.reflect.Method.invoke(Native Method)
+java.lang.reflect.Method.invoke(Method.java:372)
+com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:969)
+com.android.internal.os.ZygoteInit.main(ZygoteInit.java:764)
+
+
+
